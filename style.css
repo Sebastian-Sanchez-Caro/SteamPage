@@ -1,0 +1,620 @@
+@font-face{
+    font-family:"gilory-extrabold";
+    src:url(./Gilroy-ExtraBold.ttf)
+}
+@font-face{
+    font-family:"gilory-bold";
+    src:url(./Gilroy-Bold.ttf)
+}
+@font-face{
+    font-family:"gilory-semibold";
+    src:url(./Gilroy-SemiBold.ttf)
+}
+@font-face{
+    font-family:"gilory-regular";
+    src:url(./Gilroy-Regular.ttf)
+}
+@font-face{
+    font-family:"gilory-light";
+    src:url(./Gilroy-Light.ttf)
+}
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family:"gilory-regular";
+
+}
+body{
+    background-color: black;
+    color:white;
+}
+header{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    padding: 20px 180px;
+    width: 100%;
+}
+.Titulo{
+    display: flex;
+    align-items: center;
+}
+.Titulo h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 23px;
+    font-weight: 50;
+}
+
+.Titulo img{
+    height: 60px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+ a{
+    color: #ffffff;
+    font-family:"gilory-semibold";
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.AgendaTuClase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50PX;
+    margin-bottom: 200px;
+}
+.botoononono{
+    border: #fff800 2px solid;
+    border-radius: 10px;
+    height: 70px;
+    padding: 0 170px;
+    font-size: 20PX;
+    font-weight: 500;
+    background-color: #000;
+    color: #fff;
+    transition: 0.5s;
+}
+.AgendaTuClase button:hover{
+    color: #fff800;
+    box-shadow: 0 0 15px 0 rgb(113, 113, 113);
+}
+
+#uno{
+    font-family:"gilory-extrabold";
+    text-align:center;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+}
+#unoW{
+    font-family:"gilory-extrabold";
+    text-align:center;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #000;
+}
+.dosl{
+    margin: 20px 0;
+    width: 650Px;
+}
+#span2{
+    font-family:"gilory-extrabold";
+    text-align:center;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #000;
+    background-color: #fff800;
+    border-radius: 15PX;
+}
+#dos{
+    font-family: "gilory-light";
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 23px;
+}
+#dosW{
+    font-family: "gilory-light";
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #000;    
+}
+#dosW1{
+    font-family: "gilory-light";
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #000;
+    text-align: left;
+    width: 600px;
+    margin-bottom: 65PX;
+}
+#dosW2{
+    font-family: "gilory-light";
+    text-align: center;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #000;
+    text-align: left;
+    margin-bottom: 60px ;
+}
+
+.mensaje p{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 23px;
+    width: 200px;
+}
+.AgendaClaseFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #181818;
+    width: 100%;
+    height: 130px;
+}
+.mensaje{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cuadrado{
+    background-color: #2e2e2e;
+    height: 53px;
+    width: 53PX;
+     border-radius: 5px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.circulo{
+    width:45px ;
+    height: 45px;
+    background-color: #fff800;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#icono{
+    color: #000;
+    font-size: 34px;
+    transition: all 0.3s;
+}
+#icono:hover{
+    font-size: 30px;
+}
+
+.CarrerasSteam{
+    padding: 0 500px;
+    padding-top: 70px;
+    background-color: #fbfbfb;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    
+}
+
+.CarrerasCards{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 45px;
+}
+.Card{
+    background-color: #fff;
+    width: 430px;
+    border-radius: 15PX;
+    padding: 40PX 30px;
+  
+}
+.Card button{
+    width: 100%;
+    background-color: #fff800;
+    height: 60px;
+    border:0.5px #fbfbfb solid;
+    border-radius: 15px;
+    font-size: larger;
+    font-weight: 600;
+}
+#p1{
+    color: #6f4ef6;
+    font-family: "gilory-semibold";
+    font-weight: 600;
+    font-size: 24px;
+
+}
+#p2{
+    font-size: 32px;
+    font-family: "Gilory-bold";
+}
+#p3{
+    font-family: "Gilory-semibold";
+    font-weight: 500;
+    padding: 10px 0;
+}
+.Card ul>li{
+    font-family: "Gilory-semibold";
+    font-weight: 500;
+}
+.Card ul{
+    margin-bottom: 40px;
+}
+.certified{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30PX;
+}
+#bebebe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10PX;
+    border-radius: 25PX;
+    background-color: #ddf3d6;
+    border: 1px #68B04D solid;
+    color: #68B04D;
+    font-weight: 600;
+}
+#bababa{
+    display: flex;
+    padding: 0 10PX;
+    border-radius: 25PX;
+    align-items: center;
+   color: #3D9BE9;
+   border: 1px #3D9BE9 solid;
+   background-color: #d3e6f5;
+   font-weight: 600;
+}
+.certified div img{
+    height: 40px;
+}
+.AprendizajeATumedida{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 140px;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.AprendizajeCards{
+    display: flex;
+    gap: 40px;
+}
+.ACard{
+    border-radius: 25PX;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    padding-bottom: 0;
+    position: relative;
+}
+hr{
+    font-weight: 900;
+    width: 100%;
+}
+#advice{
+    background-color: #fff800;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px;
+    width: 200PX;
+    font-weight: 600;
+}
+#tres{
+    font-family: "gilory-light";
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.span3{
+    background-color: #fff800;
+    border-radius: 8PX;
+    color:#000;
+}
+.ACard{
+    background-color: #ffffff;
+    color: #000;
+}
+.SteamForKids{
+    padding-bottom: 80PX;
+    background-color: #fbfbfb;
+    color: #000;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.KidsCards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  
+    justify-content: center;
+}
+.KCard{
+    background-color: #fff  ;
+    width: 430px;
+    border-radius: 15PX;
+    padding: 20PX 30PX;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-around;
+}
+#bobobo{
+    border-radius: 25PX;
+    background-color: #ddf3d6;
+    border: 1px #68B04D solid;
+    color: #68B04D;
+    font-weight: 600;
+    height: 40PX;
+    width: 160px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#dosW9{
+    font-family: "gilory-regular";
+    text-align: left;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #000;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 30PX;
+    width: 700px;
+}
+#estoyCansadoJefe{
+    margin-top: 60PX;
+    margin-bottom: 55px;
+    font-size: 23PX;
+    font-weight: 500;
+}
+.botoononono2{
+    border: #fff800 2px solid;
+    border-radius: 10px;
+    height: 50px;
+    padding: 0 70px;
+    font-size: 20PX;
+    font-weight: 500;
+    background-color: #000;
+    color: #fff;
+    transition: 0.5s;
+}
+.AprendizajeTexto{
+    width: 450px;
+}
+#tresientosochentaisiete{
+    font-family: "Gilory-bold";
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 70PX;
+    margin-bottom: 40PX;
+}
+#cinco{
+    font-family:"gilory-bold";
+    font-weight: 600;
+    font-size: 26PX;
+    margin-bottom: 50PX;
+}
+.span111{
+    background-color: #fff800;
+    color: #000;
+    font-family:"gilory-bold";
+    font-weight: 600;
+    font-size: 26PX;
+}
+#fondo{
+    background-color: #fff800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    border-bottom-left-radius: 25PX;
+    border-bottom-right-radius: 25PX;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-size: 20PX;
+    font-weight: 600;
+}
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+
+label {
+  display: block;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #fe6060;
+  background-color: #1e0f24;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.Formulario{
+    padding-bottom: 80PX;
+}
+input:focus, select:focus {
+  outline: none;
+  border-bottom: 2px solid #f00;
+}
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#enviar{
+    margin-top: 30px;
+    font-family: "gilory-semibold";
+    font-weight: 600;
+    font-size: 25px;
+    background-color: #fff800;
+    border-radius: 8px;
+    padding: 15PX 45PX;
+}
+#yanoaguantomas{
+    padding-top: 50px;
+    font-family: "gilory-semibold";
+    font-size: 35PX;
+}
+#yanoaguantomas2{
+    padding-bottom: 80px;
+    font-family: "gilory-semibold";
+    font-size: 28PX;
+}
+#ultimo{
+    color: #fff800;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 35px;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+ }
+  
+
+  
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+  
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.social-media {
+    display: flex;
+}
+  
+.social-media a {
+    margin-right: 10px;
+}
+#LOGOfooter{
+    width: 30px;
+}
+.footerFooter{
+    
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+#footerLogoText{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-style: italic;
+   font-size: 20PX;
+   display: flex;
+   align-items: center;
+}
+@media (max-width: 768px) {
+    header {
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AgendaTuClase {
+        width: 100%;
+    }
+
+    .dosl {
+        width: 100%;
+    }
+
+    .AgendaClaseFooter {
+        padding: 0 20px;
+    }
+
+    .CarrerasSteam, .SteamForKids {
+        padding: 0 20px;
+    }
+
+    .CarrerasCards, .KidsCards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AprendizajeATumedida {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .AprendizajeCards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+
+    .social-media {
+        flex-direction: column;
+        align-items: center;
+    }
+}
