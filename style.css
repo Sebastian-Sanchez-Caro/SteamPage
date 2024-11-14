@@ -35,7 +35,6 @@ header{
     justify-content: space-around;
     display: flex;
     align-items: center;
-    padding: 20px 180px;
     width: 100%;
 }
 .Titulo{
@@ -100,6 +99,7 @@ main{
     font-size: 70px;
     font-weight: 700;
     line-height: 80px;
+    max-width: 900px;
 }
 #unoW{
     font-family:"gilory-extrabold";
@@ -168,8 +168,10 @@ main{
 }
 .AgendaClaseFooter{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
     background-color: #181818;
     width: 100%;
     height: 130px;
@@ -210,7 +212,6 @@ main{
 }
 
 .CarrerasSteam{
-    padding: 0 500px;
     padding-top: 70px;
     background-color: #fbfbfb;
     width: 100%;
@@ -221,7 +222,9 @@ main{
     color: #000;
     
 }
-
+.CarrerasText{
+    width: 1000px;
+}
 .CarrerasCards{
     display: flex;
     gap: 30px;
@@ -229,6 +232,7 @@ main{
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 45px;
+    max-width: 1000px;
 }
 .Card{
     background-color: #fff;
@@ -304,7 +308,8 @@ main{
     margin-bottom: 140px;
     justify-content: center;
     gap: 40px;
-    width: 100%;
+    max-width: 1200px;
+    
 }
 
 .AprendizajeCards{
@@ -356,13 +361,17 @@ hr{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
+}
+.KidsText{
+    max-width: 900px;
 }
 .KidsCards{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-  
+    max-width: 1200px;
     justify-content: center;
 }
 .KCard{
@@ -416,7 +425,7 @@ hr{
     transition: 0.5s;
 }
 .AprendizajeTexto{
-    width: 450px;
+    
 }
 #tresientosochentaisiete{
     font-family: "Gilory-bold";
@@ -453,14 +462,18 @@ hr{
     font-size: 20PX;
     font-weight: 600;
 }
-}
+
 
 form {
-  width: 300px;
+  
   margin: 0 auto;
   padding: 20px;
-  background-color: #333;
-  border-radius: 10px;
+
+}
+#register{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 
@@ -570,7 +583,7 @@ footer {
    display: flex;
    align-items: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     header {
         padding: 20px;
         flex-direction: column;

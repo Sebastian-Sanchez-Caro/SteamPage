@@ -1,0 +1,64 @@
+<div class="AprendizajeATumedida">
+
+            <section class="AprendizajeTexto">
+                <p id="tresientosochentaisiete">Aprendizaje a tu medida</p>
+                <p id="tres">Elige la modalidad de estudios que mejor se adapte a ti</p>
+                <p id="cinco"> Desde <span class="span111">38USD por mes</span></p>
+                <button class="botoononono2">Agenda una clase GRATIS</button>
+            </section>
+
+            <section class="AprendizajeCards">
+                <div class="ACard">
+                    <p id="p2">Presencial</p>
+                    <p id="advice">Vive la experiencia STEAM</p>
+                    <hr style="color: black;">
+                    <p>
+                        Espacio con mentores de forma presencial
+                    </p>
+                    <br>
+                    <p>Acompañamiento semi-personalizado</p>
+                    <p id="fondo">Barranquilla</p>
+                </div>
+                <div class="ACard">
+                    <p id="p2">Virtual</p>
+                    <p id="advice">Desde la comodidad de tu casa</p>
+                    <hr>
+                    <p>
+                        espacio con mentores de forma virtual en vivo
+                    </p>
+                    <br>
+                    <p>Acompañamiento semi-personalizado</p>
+                    <p>Contenido On Demand</p>
+                    <P id="fondo">Toda latinoamerica</P>
+                </div>
+                
+            </section>
+        </div>
+
+
+        <section class="AgendaClaseFooter">
+            <div class="mensaje">
+                <div class="cuadrado">
+                    <div class="circulo">
+                        <i id="icono" class="bi bi-camera-video-fill"></i>
+                    </div>
+                </div>
+                <p> Presencial y Online, en vivo.</p>
+            </div>
+            <div class="mensaje">
+                <div class="cuadrado">
+                    <div class="circulo">
+                        <i id="icono" class="bi bi-globe-americas"></i>
+                    </div>
+                </div>
+                <p>Pasantías en empresas IT</p>
+            </div>
+            <div class="mensaje">
+                <div class="cuadrado">
+                    <div class="circulo">
+                        <i id="icono" class="bi bi-star-fill"></i>
+                    </div>
+                </div>
+                <p>Aprendizaje semi perzonalizado</p>
+            </div>
+        </section>
